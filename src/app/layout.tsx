@@ -21,7 +21,7 @@ export default function RootLayout({
         <div className="fixed top-0 left-0 right-0 shadow">
           <NavigationPanel></NavigationPanel>
         </div>
-        <div className="pt-24">
+        <div>
           {children}
         </div>
       </body>
