@@ -5,7 +5,7 @@ import Title from "@/app/ui/title";
 
 export function NavigationPanel() {
   return (
-    <div className="shadow p-5 flex flex-row justify-start">
+    <div className="p-4 flex flex-row justify-start bg-neutral-100">
       <div>
         <Link href="/">
           <Title />

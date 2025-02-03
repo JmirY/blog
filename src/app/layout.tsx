@@ -18,13 +18,11 @@ export default function RootLayout({
       <body
         className={`${notoSansKr.variable} antialiased`}
       >
-        <div className="flex flex-col items-center">
-          <div className="w-full">
-            <NavigationPanel></NavigationPanel>
-          </div>
-          <div className="max-w-5xl px-20 py-14">
-            {children}
-          </div>
+        <div className="fixed top-0 left-0 right-0 shadow">
+          <NavigationPanel></NavigationPanel>
+        </div>
+        <div className="pt-24">
+          {children}
         </div>
       </body>
     </html>
