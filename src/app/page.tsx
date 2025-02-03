@@ -1,5 +1,5 @@
-import { ContentsPanel } from "@/app/ui/panel/contents-panel";
+import PostList from "@/app/ui/post/post-list";
 
 export default function Home() {
-  return <ContentsPanel></ContentsPanel>;
+  return <PostList/ >;
 }
