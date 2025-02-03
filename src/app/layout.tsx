@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import "@/app/ui/globals.css";
+import "@/app/globals.css";
 import { NavigationPanel } from "@/app/ui/panel/navigation-panel";
-import { notoSansKr } from "@/app/ui/fonts"
+import { notoSansKr } from "@/app/fonts"
 
 export const metadata: Metadata = {
   title: "Dragonstone's Blog",
