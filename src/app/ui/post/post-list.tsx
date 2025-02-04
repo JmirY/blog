@@ -9,7 +9,6 @@ export default async function PostList() {
   const postFiles = await fetchPostFiles();
   console.log("Fetched post files: ", postFiles);
   
-  // const metaDataArr = testMetaDataList;
   const metaDataArr = postFiles.map(postFile => extractMetaDataFrom(postFile));
   console.log("Posts' meta data: ", metaDataArr);
 
@@ -67,28 +66,3 @@ function formatDateString(dateStr: string): string {
 
   return `${year} / ${month} / ${day}`;
 }
-
-const testMetaDataList = [
-  {title:"동해물과 백두산이 마르고 닳도록", date:"2025-01-01"},
-  {title:"하나님이 보우하사 우리 나라 만세 무궁화 삼천리 화려강산", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-  {title:"Test", date:"2025-01-01"},
-];
