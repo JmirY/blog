@@ -3,7 +3,17 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export default function PostEntry({ data }) {
+interface PostData {
+  title: string,
+  date: string,
+  slug: string,
+}
+
+export default function PostEntry({
+  data,
+}: {
+  data: PostData
+}) {
   const pathname = usePathname();
   const encodedSlug = encodeURIComponent(data.slug);
   
