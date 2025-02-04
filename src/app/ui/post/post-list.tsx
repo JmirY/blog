@@ -13,9 +13,9 @@ export default async function PostList() {
   console.log("Posts' meta data: ", metaDataArr);
 
   return (
-    <div className="flex flex-col gap-7">
+    <ol className="flex flex-col gap-7">
       {metaDataArr.map(metaData => createPostListEntryFrom(metaData))}
-    </div>
+    </ol>
   );
 }
 
@@ -47,7 +47,11 @@ function createPostListEntryFrom(postMetaData: {[key: string]: string}) {
     slug: postMetaData.slug,
   };
   
-  return <PostEntry data={data} />;
+  return (
+    <li key={data.slug}>
+      <PostEntry data={data} />
+    </li>
+  )
 }
 
 function formatDateString(dateStr: string): string {
