@@ -1,9 +1,7 @@
-import path from "path";
 import fs from "fs";
 import matter from "gray-matter";
 import PostEntry from "@/app/ui/post/post-entry";
-
-const POST_DIR_PATH = "/post";
+import { fetchPostFiles } from "@/util/post-util";
 
 export default async function PostList() {
   const postFiles = await fetchPostFiles();
@@ -17,21 +15,6 @@ export default async function PostList() {
       {metaDataArr.map(metaData => createPostListEntryFrom(metaData))}
     </ol>
   );
-}
-
-async function fetchPostFiles(): Promise<string[]> {
-  return new Promise((resolve, reject) => {
-    const directoryPath = path.join(process.cwd(), POST_DIR_PATH);
-
-    fs.readdir(directoryPath, (err, files) => {
-        if (err) {
-          reject();
-        }
-        
-        const result = files.map(file => path.join(directoryPath, file));
-        resolve(result);
-      });
-  });
 }
 
 function extractMetaDataFrom(filePath: string) {
