@@ -53,11 +53,9 @@ export class PostManager {
   }
 
   async getPostDataBySlug(slug: string): Promise<PostData> {
-    if (this.postDataList.length === 0) {
-      await fetchPostFiles();
-    }
+    const postDataList = await this.fetchPostDataList();
     
-    const result = this.postDataList.find((postData) => {
+    const result = postDataList.find((postData) => {
       return postData.slug === slug;
     });
 
