@@ -1,14 +1,19 @@
-export default function PostEntry({title, date}: {
-  [key: string]: string
-}) {
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+export default function PostEntry({ data }) {
+  const pathname = usePathname();
+  
   return (
-    <div>
+    <Link href={`${pathname}/${data.slug}`}>
       <div className="text-xl font-semibold">
-        {title}
+        {data.title}
       </div>
       <div className="text-sm">
-        {date}
+        {data.date}
       </div>
-    </div>
+    </Link>
   );
 }
