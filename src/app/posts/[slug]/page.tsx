@@ -7,7 +7,7 @@ export default async function PostPage({
   params: Promise<{ slug: string }>
 }) {
   const slug = (await params).slug;
-  const postData = PostManager.instance.getPostDataBySlug(slug);
+  const postData = await PostManager.instance.getPostDataBySlug(slug);
 
   return (
     <div>

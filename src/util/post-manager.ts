@@ -52,7 +52,11 @@ export class PostManager {
     return this.postDataList;
   }
 
-  getPostDataBySlug(slug: string): PostData {
+  async getPostDataBySlug(slug: string): Promise<PostData> {
+    if (this.postDataList.length === 0) {
+      await fetchPostFiles();
+    }
+    
     const result = this.postDataList.find((postData) => {
       return postData.slug === slug;
     });
