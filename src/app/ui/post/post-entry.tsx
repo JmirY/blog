@@ -2,12 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
-interface PostData {
-  title: string,
-  date: string,
-  slug: string,
-}
+import { PostData } from "@/util/post-manager";
 
 export default function PostEntry({
   data,
