@@ -1,14 +1,17 @@
+import PostView from "@/app/ui/post/post-view";
+import { PostManager } from "@/util/post-manager";
+
 export default async function PostPage({
   params,
 }: {
   params: Promise<{ slug: string }>
 }) {
   const slug = (await params).slug;
-  console.log("Showing the post. slug: ", slug);
+  const postData = PostManager.instance.getPostDataBySlug(slug);
 
   return (
     <div>
-      {`Hello ${slug}`}
+      <PostView postData={postData} />
     </div>
   );
 }

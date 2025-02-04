@@ -51,6 +51,18 @@ export class PostManager {
 
     return this.postDataList;
   }
+
+  getPostDataBySlug(slug: string): PostData {
+    const result = this.postDataList.find((postData) => {
+      return postData.slug === slug;
+    });
+
+    if (!result) {
+      throw new Error(`Post with slug ${slug} not found.`);
+    }
+
+    return result;
+  }
 }
 
 function fetchPostFiles(): Promise<string[]> {
