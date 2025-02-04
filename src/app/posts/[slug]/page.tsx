@@ -4,6 +4,7 @@ export default async function PostPage({
   params: Promise<{ slug: string }>
 }) {
   const slug = (await params).slug;
+  console.log("Showing the post. slug: ", slug);
 
   return (
     <div>
