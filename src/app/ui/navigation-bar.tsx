@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
 import Link from "next/link";
 import Title from "@/app/ui/title";
 
-export function NavigationPanel() {
+export default function NavigationBar() {
   return (
     <div className="p-4 flex flex-row justify-start bg-neutral-100">
       <div>
