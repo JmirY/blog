@@ -5,9 +5,10 @@ import { usePathname } from "next/navigation";
 
 export default function PostEntry({ data }) {
   const pathname = usePathname();
+  const encodedSlug = encodeURIComponent(data.slug);
   
   return (
-    <Link href={`${pathname}/${data.slug}`}>
+    <Link href={`${pathname}/${encodedSlug}`}>
       <div className="text-xl font-semibold">
         {data.title}
       </div>
