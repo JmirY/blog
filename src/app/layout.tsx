@@ -4,8 +4,8 @@ import NavigationBar from "@/app/ui/navigation-bar";
 import { notoSansKr, eulyoo1945 } from "@/app/fonts"
 
 export const metadata: Metadata = {
-  title: "Dragonstone's Blog",
-  description: "Blog of dragonstone",
+  title: "ysmir blog",
+  description: "Blog of ysmir",
 };
 
 export default function RootLayout({
