@@ -5,7 +5,7 @@ import Title from "@/app/ui/title";
 
 export default function NavigationBar() {
   return (
-    <div className="p-4 flex flex-row justify-center bg-neutral-100">
+    <div className="py-3 flex flex-row justify-center bg-neutral-100">
       <div>
         <Link href="/">
           <Title />

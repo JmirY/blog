@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import { eulyoo1945 } from "@/app/fonts";
 import "@/app/globals.css";
 import NavigationBar from "@/app/ui/navigation-bar";
-import { notoSansKr, eulyoo1945 } from "@/app/fonts"
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "ysmir blog",
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className={`fixed top-0 left-0 right-0 shadow ${notoSansKr} antialiased`}>
+        <div className={`fixed top-0 left-0 right-0 shadow`}>
           <NavigationBar></NavigationBar>
         </div>
         <div className={`${eulyoo1945.className} antialiased`}>
