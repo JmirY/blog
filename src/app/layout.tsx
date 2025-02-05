@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className={`fixed top-0 left-0 right-0 shadow`}>
+        <div className="fixed top-0 left-0 right-0 shadow select-none">
           <NavigationBar></NavigationBar>
         </div>
         <div className={`${eulyoo1945.className} antialiased`}>
