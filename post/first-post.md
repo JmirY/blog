@@ -1,11 +1,16 @@
 ---
-title: 이 땅 위에 집을 짓다.
-date: 2025-02-04
+title: 테스트용 포스트.
+date: 2025-02-07
 ---
 
-## 사람에게 '집' 이란 ...
+## 이것은 테스트용 포스트.
 
-&nbsp;사람에게 있어 '집' 이라는 공간은 어떤 의미일까. 고단한 일과에 지친 몸을 편히 누울 수 있는 곳. 내가 유일하게 왕이 될 수 있는 곳. 나의 정신적, 물리적 나체를 눈치 보지 않고 드러낼 수 있는 곳.
-무수한 사람들 저마다의 집에 대한 정의가 있고, 이에 맞춰 집의 기능은 사뭇 다를 것이라 짐작한다.  
-  
-&nbsp;나는 이런 공간을 원했다. 오래토록 원했다. 지금 살고 있는 7평 남짓 전세집과 같은 빌린 공간이 아니라, 내 손때가 여기저기 묻은 공간, 나의 역사가 아로새겨진 그런 공간 말이다. 나는 생각했다. 한반도의 어느 좋은 땅을 사 멋진 집을 짓는 건 불가능하진 않더라도, 먼 미래가 될 것이다. 하지만 전기 신호의 왕래로 창조된 세상에는 빠르고 또 멋지게 지을 수 있을 것만 같았다. 그래서 나는 꿈꾸지 시작했다. 언젠가 나만의 웹 페이지를 만들 것이라고. 
+&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquam risus nec augue ultricies facilisis. Vestibulum volutpat, turpis et dapibus sagittis, dui ipsum aliquam orci, nec aliquam risus justo sit amet lorem. Etiam accumsan neque porttitor sapien luctus, vitae iaculis mauris pretium. Praesent vel nibh laoreet, laoreet enim in, sagittis ligula. Mauris fermentum cursus venenatis. Nam imperdiet mattis nisl, semper ultricies ipsum vehicula non. Pellentesque elementum nisl quis arcu convallis tempor. Sed convallis consequat massa eu imperdiet.  
+
+&nbsp;Sed accumsan viverra odio in varius. Vivamus convallis efficitur quam, vitae cursus sapien mattis nec. Nunc sit amet laoreet velit. Vivamus nec sem mattis, maximus metus non, laoreet neque. Phasellus vitae urna mauris. Nulla vel dui metus. Nulla ex lacus, mollis sit amet dolor malesuada, rutrum bibendum lectus. Sed molestie lacus vitae nisl tincidunt ornare eget in arcu. Fusce eu lobortis nisl. Pellentesque commodo, arcu nec sodales auctor, felis tortor elementum ligula, at imperdiet risus ipsum eget purus.  
+
+&nbsp;In hac habitasse platea dictumst. Sed at risus sed ligula malesuada dapibus vitae et enim. Duis finibus, leo sed malesuada rutrum, orci urna placerat augue, sit amet porta leo est vel odio. Cras sed dolor nisi. Donec imperdiet nibh sit amet malesuada feugiat. Proin quis libero leo. Maecenas vehicula ligula id massa aliquet sollicitudin. Nullam ut blandit ante.  
+
+&nbsp;Pellentesque at est eu dolor lacinia scelerisque nec sit amet arcu. Nam varius condimentum nibh quis vulputate. In lacinia est vitae felis vulputate malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec rutrum ante a lorem accumsan, et semper nisl hendrerit. Mauris vel dui lobortis, malesuada urna eget, sollicitudin felis. Ut malesuada pharetra maximus. Nam condimentum ultrices dui ut aliquet. Quisque fermentum ante eu nibh laoreet, vel ultricies arcu placerat.  
+
+&nbsp;Curabitur rhoncus urna ullamcorper fringilla vehicula. Proin condimentum velit ligula, sit amet maximus sem ullamcorper non. Maecenas libero nibh, vestibulum a congue et, lacinia eu metus. Curabitur vel tempor nibh. Sed venenatis est non lacus consectetur, nec suscipit est vehicula. Proin auctor non felis vel pretium. Donec at felis accumsan, fermentum elit eget, hendrerit dui. Fusce pulvinar lacinia tortor. Mauris non mi felis. Phasellus ac bibendum tellus. Phasellus vitae orci tellus. Donec bibendum varius justo nec elementum. Nulla finibus cursus est rhoncus dictum. Fusce sapien sem, vulputate finibus risus vitae, congue tristique mauris.  
